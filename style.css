@@ -156,7 +156,14 @@ section{
      .heading{
          font-size: 3rem;
      }
-     
+      .drawing-board canvas{
+      width: 50%;
+      height: 50%;
+    }
+    .drawing-board{
+      flex: 1;
+      overflow: hidden;
+    }
      }
 
 
